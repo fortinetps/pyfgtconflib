@@ -25,8 +25,8 @@ so you could verify the config paring (import) and config dictionary printing ou
 
 A demo script called "remove_password.py" in tests folder.
 This script open a FortiGate configuration file, parses configuration file into python dictionary, 
-when printing the dictionary out, it removes/strips all (encrypted) passwords in configuration, 
-it will be a little safer to share the new configuration file without password.
+when printing the dictionary out, it removes/strips all (encrypted) passwords, private-key, and certificate in configuration, 
+it will be a little safer to share the configuration file without these information.
 
 For additional usages/demos/tools, please check this GitHub repo site:
 https://github.com/fortinetps/FortiGateConfigTools
